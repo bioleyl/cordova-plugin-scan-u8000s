@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="scanner-u8000s"
     version="1.0.0">
-    <name>Cordova Plugin Template</name>
+    <name>ScannerPlugin-U8000S</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
@@ -20,7 +20,7 @@
       </js-module>
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="ScanPlugin">
-          <param name="android-package" value="com.example.ScanPlugin" />
+          <param name="android-package" value="ch.syware.ScanPlugin" />
           <param name="onload" value="true" />
         </feature>
       </config-file>
