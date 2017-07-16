@@ -1,11 +1,19 @@
 {
   "name": "cordova-plugin-scanner-u8000s",
   "version": "1.0.0",
-  "cordova": {
-    "id": "cordova-plugin-scanner-u8000s",
-    "platforms": [
-      "android"
-    ]
+  "author": "Leal Bioley",
+  "platforms": [
+    "android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6"
+    }
+  ],
+  "description": "The cordova plugin for the scanner U8000S Edit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bioleyl/cordova-plugin-scan-u8000s.git"
   },
-  "description": "The cordova plugin for the scanner U8000S Edit"
 }
